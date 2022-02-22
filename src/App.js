@@ -36,13 +36,16 @@ function App() {
     <div className="App">
       <div>
         <h1>Доля рынка КФЛ%</h1>
+        
         <div className='InfoContainer'>
-          <p>
-          {date[0]}
-          </p>
-          <p>
-          {`${(data[0]/planed[0] * 100).toFixed(2)} % к плану`}
-          </p>
+          <div>
+            <p>
+            {date[0]}
+            </p>
+            <p>
+            {`${(data[0]/planed[0] * 100).toFixed(2)} % к плану`}
+            </p>
+          </div>
         </div>
       </div>
       <Chart data={data} date={date}> </Chart>
