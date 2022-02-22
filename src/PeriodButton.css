@@ -1,0 +1,9 @@
+.PeriodButton{
+    width: 46px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(45, 108, 116);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
